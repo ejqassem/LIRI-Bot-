@@ -29,7 +29,7 @@ function movieThis() {
       for (var i in movie.countries) {
         console.log("This movie was shown in " + movie.countries[i]);
       }
-      console.log("Rotten Tomates URL is " + movie.tomato);
+      console.log("The rotten Tomates URL is " + movie.tomato);
 
       movieInfo.push(movie.title, movie.year, movie.imdb.rating, movie.plot, movie.actors, movie.countries, movie.tomato);
       fs.appendFile("log.txt", movieInfo, function(err) {
