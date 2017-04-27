@@ -70,6 +70,7 @@ function getTweets() {
       if(err) throw err;
       console.log("The data was appended to 'log.txt'");
     });
+
   });
 
 }
